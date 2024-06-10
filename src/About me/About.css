@@ -1,0 +1,26 @@
+.tittle{
+    padding-left: 52px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+.content_in{
+    width: 1140px;
+    height: 160px;
+    border: 1px solid #FFA500;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding-top: 5px;
+    /* padding-left: 1px; */
+    padding-right: 20px;
+}
+p {
+    text-align: justify; /* Align text to justify */
+  padding-left: 10px;
+}
+.content_in li{
+    gap: 2.8rem;
+    list-style: circle;
+    
+}

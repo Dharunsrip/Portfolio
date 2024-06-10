@@ -1,0 +1,138 @@
+.imagewidth{
+    height: 50px;
+    width: 50px;
+    transition: all 03s ease;
+}
+.Degree{
+    font-size: 50px;
+    color: #6852ba;
+}
+.Role{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 35px;
+}
+.container {
+    width: 300px; /* Adjust the width and height as needed */
+    height: 300px;
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden;
+    margin-left: 70px;
+    border: 10px solid violet; /* Clip the image to the circular shape */
+}
+
+.image {
+    width: 100%; /* Ensure the image fills the circular container */
+    height: auto; /* Let the height adjust automatically */
+    display: block; /* Make the image a block element for proper alignment */
+    margin: 0 auto; /* Center the image horizontally within the circular container */
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content-container::after,
+.content-container::before{
+    content: "";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+.content-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+.content-container::before{
+    bottom: 2rem;
+    right: 0rem;
+}
+.content{
+    flex: 1;
+}
+.content h2{
+    width: 125%;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.content p{
+     width: 80%; 
+    font-size: 1.5rem; 
+    font-weight: 400;
+    line-height: 2rem;
+    padding-left: 35px;
+}
+.color{
+    color: #FFA500;
+    font-size: 60px;
+    padding-left: 35px;
+}
+.content-img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.content-img >div{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+.content-img >div>img{
+    width: 30rem;
+    transition: all 0.3s ease;
+}
+.tech-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1px solid #FFA500;
+}
+
+.content-img >div >image:hover,
+.tech-icon img:hover{
+    transform: translateY(-0.5rem);
+}
+.btns {
+    /* height: auto; */
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 35px;
+    background: linear-gradient(90deg,
+    #FFA500 0%, #ff9900 100%);
+     padding: 0.6rem 2rem;
+     border: none;
+     outline: 1.5px solid transparent;
+     border-radius: 0.2rem;
+     cursor: pointer;
+     transition: all 0.3 ease;
+   }
+   .btns:hover{
+     color: #ff9900;
+     background: #000;
+     outline: 1.5px solid #a993fe;
+   }
+   .hello{
+    font-size: 30px;
+    padding-left: 35px;
+   }
+   

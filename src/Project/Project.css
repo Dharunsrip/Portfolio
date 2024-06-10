@@ -1,0 +1,23 @@
+.project-container{
+    width: 1150px;
+    height: auto;
+    border: 1.5px solid #FFA500;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+.topics{
+    color: wheat;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.pro-name{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+ .pro{
+    list-style: circle;
+    padding-bottom: 10px;
+}

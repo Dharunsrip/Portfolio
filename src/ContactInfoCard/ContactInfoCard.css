@@ -1,0 +1,38 @@
+.images{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    
+}
+.con-de-card{
+    height: 130px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 0.65rem;
+    border: 1.5px solid #FFA500;
+    /* padding: 1.5rem; */
+    padding-top: 20px;
+    margin-bottom: 20px;
+   margin-right: 10px;
+   margin-left: 50px;
+}
+.con-de-card .icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: white;
+    /* margin-bottom: 0.8rem; */
+    /* padding-top: 20px; */
+}
+
+.con-de-card p{
+    font-size: 20px;
+    font-weight: 400;
+}

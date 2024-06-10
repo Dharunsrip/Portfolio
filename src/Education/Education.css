@@ -1,0 +1,33 @@
+.edu-con{
+    width: 1155px;
+    height: 200px;
+    border: 1.5px solid #FFA500;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.edu{
+    padding-left: 30px;
+    /* padding-right: 20px; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.Dept{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.coll{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.year{
+    font-size: 15px;
+}
+.cgpa{
+    font-size: 18px;
+    padding-top: 10px;
+}

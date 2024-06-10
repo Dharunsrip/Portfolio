@@ -1,0 +1,29 @@
+.cer-con{
+    width: 1150px;
+    height: auto;
+    border: 1.5px solid #FFA500;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.cer{
+    padding-left: 30px;
+    /* padding-right: 20px; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.cou{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ins{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.dur{
+    font-size: 18px;
+    padding-top: 10px;
+}

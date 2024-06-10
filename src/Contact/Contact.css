@@ -1,0 +1,40 @@
+.Contact-Container{
+    margin: 1rem 0;
+    position: relative;
+}
+.Contact-content{
+    /* display: flex;
+    gap: 2rem; */
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.link{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Contact-Container::after,
+.Contact-Container::before{
+    content: "";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+
+.Contact-Container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.Contact-Container::before{
+    bottom: 2rem;
+    right: 0rem;
+}
